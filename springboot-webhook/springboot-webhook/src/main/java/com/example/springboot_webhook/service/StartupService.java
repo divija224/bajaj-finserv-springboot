@@ -40,9 +40,9 @@ public class StartupService implements CommandLineRunner {
         headers.setContentType(MediaType.APPLICATION_JSON);
 
         Map<String, String> body = new HashMap<>();
-        body.put("name", "M BHAVITHA");
-        body.put("regNo", "22BCB7204");
-        body.put("email", "bhavitha961@gmail.com");
+        body.put("name", "Gaddam Divija");
+        body.put("regNo", "22BCB7054");
+        body.put("email", "gdivijagoud@gmail.com");
         HttpEntity<Map<String, String>> entity = new HttpEntity<>(body, headers);
 
         try {
